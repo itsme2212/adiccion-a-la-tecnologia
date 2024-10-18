@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicción a la Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Parallax background section -->
+    <div class="parallax"></div>
+
+    <!-- Header -->
+    <header>
+        <h1>El impacto de la Adicción a la Tecnología</h1>
+        <p>Explora el problema creciente de la adicción tecnológica y sus consecuencias.<br>
+            Esta es una problemática que enfrentamos todos los días como una sociedad que utiliza la tecnología en diferentes áreas del conocimiento. Por eso, decidimos visibilizar esta situación en la Institución María Mercedes Carranza y sus alrededores.
+    </p>
+        <img src="images/escudo.png" alt="Imagen de introducción" class="header-image">
+    </header>
+
+    <!-- Sección de botones -->
+    <section class="buttons-section">
+        <!-- Fila 1: 3 botones -->
+        <div class="button-row">
+            <div class="button-container">
+                <button onclick="toggleSection('problem-tree')">La Problemática</button>
+                <img src="images/image1_2.jpg" alt="Imagen relacionada con La Problemática" class="button-image">
+            </div>
+            <div class="button-container">
+                <button onclick="toggleSection('collage')">Evidencia</button>
+                <img src="images/image1_3.jpg" alt="Imagen relacionada con Evidencia" class="button-image">
+            </div>
+            <div class="button-container">
+                <button onclick="toggleSection('mental-map')">Posible solución</button>
+                <img src="images/image1_6.jpg" alt="Imagen relacionada con Posible solución" class="button-image">
+            </div>
+        </div>
+        
+        <!-- Fila 2: 2 botones -->
+        <div class="button-row">
+            <div class="button-container">
+                <button onclick="toggleSection('infographic')">Propuestas</button>
+                <img src="images/image1_5.jpg" alt="Imagen relacionada con Propuestas" class="button-image">
+            </div>
+            <div class="button-container">
+                <button onclick="toggleSection('video')">Acciones que tomar</button>
+                <img src="images/image1_4.jpg" alt="Imagen relacionada con Acciones que tomar" class="button-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Secciones ocultas -->
+    <section id="problem-tree" class="hidden-section">
+        <h2>La Problemática</h2>
+        <img src="images/ArbolProblemas.jpg" alt="Arbol de problemas" class="hidden-image">
+        <p>A través de este arbol de problemas se logra comprender con mayor claridad los efectos y causas de esta problemática.</p>
+    </section>
+
+    <section id="collage" class="hidden-section">
+        <h2>Collage</h2>
+        <img src="images/collage.jpeg" alt="collage" class="hidden-image">
+        <p>Se realizo este collage con el fin de poder visualizar el problema al que nos estamos enfrentando, algo del día a día.</p>
+    </section>
+
+    <section id="mental-map" class="hidden-section">
+        <h2>Mapa Mental</h2>
+        <img src="images/MapaMental.jpg" alt="MapaMental" class="hidden-image">
+        <p>Por medio de este organizador gráfico se organiza la información más inmediata del tema.</p>
+    </section>
+
+    <section id="infographic" class="hidden-section">
+        <h2>Infografía</h2>
+        <img src="images/Infografía.jpg" alt="infografía" class="hidden-image">
+        <p>Con una explicación sobre a qué nos estamos enfrentando, tambien nos ofrece las posibles medidas que podemos tomar.</p>
+    </section>
+
+    <section id="video" class="hidden-section">
+        <h2>Video</h2>
+          <a href="https://youtube.com/@adiccionalatecnologia?si=QSd4arA08VKhlsOj"target="_blank" >Link</a>
+        <p>En el siguiente enlace encontrará un video, el cual realiza un enfoque a las acciones que se podrían realizar para contribuir a la disminución de esta problemática.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer_container">
+        <h3>Participantes: </h3>
+        <p>Carol Mejía <br>Jeimy Salcedo <br>Jeimi Romero <br>Angela Ramirez <br>Andree Perez <br>Heiler Murillo <br> <br> 
+        </p>
+        <p>&copy; Adicción a la Tecnología. Todos los derechos reservados. 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
