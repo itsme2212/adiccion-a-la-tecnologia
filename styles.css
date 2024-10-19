@@ -102,6 +102,12 @@ header p {
     border-radius: 10px;
 }
 
+.video {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -110,6 +116,22 @@ footer {
     color: #A0A0A0; /* Texto gris claro */
     
 }
+
+.info-row {
+    display: flex;
+        justify-content: space-between; /* Distribuye los párrafos en los extremos */
+        align-items: center; /* Alinea los párrafos verticalmente si es necesario */
+    }
+
+.info-izquierda {
+     text-align: left; /* Alinea el texto del párrafo a la izquierda (opcional) */
+}
+
+.info-derecha {
+    text-align: right; /* Alinea el texto del párrafo a la derecha (opcional) */
+}
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -134,11 +156,27 @@ footer {
         width: 200px;
     }
 
+    .video {
+        width: 250px;
+    }
+
     .button-row {
         flex-direction: column;
     }
 
     .button-container {
+        margin-bottom: 20px;
+    }
+
+    .info-row {
+        flex-direction: column;
+    }
+
+    .info-izquierda {
+        margin-bottom: 20px;
+    }
+
+    .info-derecha {
         margin-bottom: 20px;
     }
 }
